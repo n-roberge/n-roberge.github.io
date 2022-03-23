@@ -1,0 +1,130 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+/* 62.5% font size */
+body {
+    background-color: #292726;
+    color: #c0c0c0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  color: #007bb6;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+h4 {
+    color:white
+}
+
+.img-container {
+	text-align: center;
+}
+
+.photo {
+    height: auto;
+    width: 250px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.center {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#intro {
+    background: url("../img/landing.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mt-5{
+  background: url("../img/topo.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.modal-footer {
+  color: black;
+  }
+
+.modal-title {
+  color: black;
+}
+
+.top-nav-collapse {
+    background-color: #292726;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #292726;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #292726;
+    }
+  }
+
+.col-sm-4{
+  height: 350px;
+}
+
+/* social buttons */
+.social .fa-linkedin:hover {
+	color: #007bb6 ;
+}
+
+.social .fa-github:hover {
+	color: #007bb6 ;
+}
+
+.social .fa-envelope:hover {
+	color: #007bb6 ;
+}
+
+.social .fa-youtube:hover {
+	color: #007bb6 ;
+}
+/* .social .fa-file-download:hover {
+	color: #007bb6 ;
+} */
+
+/* Style all font awesome icons */
+.fa-contact{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa-contact:hover {
+  opacity: 0.7;
+}
