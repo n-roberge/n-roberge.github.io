@@ -17,7 +17,7 @@ body {
 }
 
 .title {
-  color: #007bb6;
+  color: white;
   font-size: xx-large;
   font-weight: bold;
 }
@@ -92,28 +92,8 @@ h4 {
   }
 
 .col-sm-4{
-  height: 350px;
+  height: 300px;
 }
-
-/* social buttons */
-.social .fa-linkedin:hover {
-	color: #007bb6 ;
-}
-
-.social .fa-github:hover {
-	color: #007bb6 ;
-}
-
-.social .fa-envelope:hover {
-	color: #007bb6 ;
-}
-
-.social .fa-youtube:hover {
-	color: #007bb6 ;
-}
-/* .social .fa-file-download:hover {
-	color: #007bb6 ;
-} */
 
 /* Style all font awesome icons */
 .fa-contact{
